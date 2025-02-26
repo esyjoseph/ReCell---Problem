@@ -13,7 +13,6 @@ This repository contains the analysis and model development for the ReCell proje
   - [Data Preprocessing & Feature Engineering](#data-preprocessing--feature-engineering)
   - [Model Building and Evaluation](#model-building-and-evaluation)
 - [Key Findings & Recommendations](#key-findings--recommendations)
-- [Usage](#usage)
 - [License](#license)
 
 ## Overview
@@ -42,14 +41,10 @@ The dataset (`used_device_data (1).csv`) includes 15 key columns such as:
 
 ```
 ReCell-Dynamic-Pricing/
-├── data/
-│   └── used_device_data (1).csv         # Dataset for analysis
-├── notebooks/
-│   └── ReCell_Project_Notebook.ipynb      # Jupyter notebook containing full analysis
+├── used_device_data (1).csv         # Dataset for analysis
 ├── ReCell Project Code.pdf                # Detailed code walkthrough and analysis
 ├── ReCell Project PowerPoint Presentation.pdf   # Presentation with key findings and recommendations
-├── README.md                              # This file
-└── requirements.txt                       # List of required libraries and versions
+└── README.md                              # This file
 ```
 
 ## Environment & Installation
@@ -63,24 +58,6 @@ To replicate the analysis, you will need Python 3.x and the following libraries:
 - scikit-learn
 - statsmodels
 - scipy
-
-Install the required packages using:
-
-```bash
-pip install -r requirements.txt
-```
-
-The `requirements.txt` file includes the following (versions used in the project):
-
-```text
-scikit-learn==<version>
-seaborn==<version>
-matplotlib==<version>
-numpy==<version>
-pandas==<version>
-statsmodels==<version>
-scipy==<version>
-```
 
 ## Analysis and Modeling
 
@@ -122,14 +99,6 @@ A linear regression (OLS) model was developed with the following highlights:
   - Focus on sourcing and promoting 4G-capable devices.
   - Monitor 5G trends for future pricing strategy adjustments.
   - Account for depreciation using the device’s age to adjust pricing dynamically.
-
-## Usage
-
-1. **Data Preparation**: Place the `used_device_data (1).csv` file in the `data/` folder.
-2. **Run the Notebook**: Open the Jupyter notebook in the `notebooks/` directory to view the full analysis and model building steps.
-3. **Review Documentation**: For a detailed understanding of the code and results, refer to the accompanying PDF documents:
-   - [ReCell Project Code.pdf](./ReCell%20Project%20Code.pdf)
-   - [ReCell Project PowerPoint Presentation.pdf](./ReCell%20Project%20PowerPoint%20Presentation.pdf)
 
 ## License
 
