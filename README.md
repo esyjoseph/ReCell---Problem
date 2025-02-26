@@ -40,7 +40,7 @@ The dataset (`used_device_data (1).csv`) includes 15 key columns such as:
 ## Project Structure
 
 ```
-ReCell-Dynamic-Pricing/
+ReCell-Dynamic-Pricing-for-Used-Devices-A-Predictive-Modeling-Approach/
 ├── README.md                              # This file
 ├── ReCell Project Code.pdf                # Detailed code walkthrough and analysis
 ├── ReCell Project PowerPoint Presentation.pdf   # Presentation with key findings and recommendations
