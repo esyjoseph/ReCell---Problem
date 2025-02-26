@@ -41,10 +41,10 @@ The dataset (`used_device_data (1).csv`) includes 15 key columns such as:
 
 ```
 ReCell-Dynamic-Pricing/
-├── used_device_data (1).csv         # Dataset for analysis
+├── README.md                              # This file
 ├── ReCell Project Code.pdf                # Detailed code walkthrough and analysis
 ├── ReCell Project PowerPoint Presentation.pdf   # Presentation with key findings and recommendations
-└── README.md                              # This file
+└── used_device_data (1).csv         # Dataset for analysis
 ```
 
 ## Environment & Installation
